@@ -5,7 +5,7 @@ import ListaSupensa from '../ListaSuspensa'
 import './Formulario.css'
 
 const Formulario = (props) => {
-    const times = ['Programação', 'Front-End', 'Data Science', 'Devops','Ux e Design', 'Mobile', 'Inovação e Gestão']
+
     
     const [nome, setNome] = useState('')
     const [cargo, setCargo] = useState('')
@@ -14,8 +14,18 @@ const Formulario = (props) => {
 
     const aoSalvar = (evento) => {
         evento.preventDefault();
-        props.aoColaboradorCadastrado({nome, cargo, imagem, time})
-    } 
+        props.aoColaboradorCadastrado({
+            nome, 
+            cargo, 
+            imagem, 
+            time
+        })
+        setNome('')
+        setCargo('')
+        setImagem('')
+        setTime('')
+
+    }
     
     return (
         <section className="formulario">
@@ -24,7 +34,7 @@ const Formulario = (props) => {
                 <CampoTexto obrigatorio={true} label="Nome" placeholder="Digite seu nome" valor={nome} aoAlterado={valor => setNome(valor)}/>
                 <CampoTexto obrigatorio={true} label="Cargo" placeholder="Digite seu cargo"valor={cargo} aoAlterado={valor => setCargo(valor)}/>
                 <CampoTexto label="Imagem" placeholder="Digite o endereço da imagem" valor={imagem} aoAlterado={valor => setImagem(valor)}/>
-                <ListaSupensa obrigatorio={true}  itens={times} label="Time"
+                <ListaSupensa obrigatorio={true}  itens={props.times} label="Time"
                 valor={time} aoAlterado={valor => setTime(valor)}/>
                 <Botao>
                     Criar Card
