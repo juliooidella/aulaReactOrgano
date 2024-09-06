@@ -1,83 +1,74 @@
-# Sobre
+# Organo - Projeto FrontEnd com React
 
-O projeto faz parte do treinamento da Alura sobre desenvolvimento de FrontEnd com React
-[Curso React Desenvolvendo com JavaScript](https://cursos.alura.com.br/course/react-desenvolvendo-javascript)
+Este projeto faz parte do treinamento de **FrontEnd com React** da Alura, abordado no curso [React: Desenvolvendo com JavaScript](https://www.alura.com.br/).
 
-## GitHub do projeto:
+## 📂 GitHub do Projeto
 
-https://github.com/juliooidella/aulaReactOrgano
+[Repositório no GitHub](https://github.com/juliooidella/aulaReactOrgano)
 
-## Deploy do Projeto na Vercel:
+## 🚀 Deploy do Projeto
 
-[Deploy na Vercel](https://aula-react-organo.vercel.app)
+O projeto está em produção na Vercel: [Deploy na Vercel](https://aula-react-organo.vercel.app/)
 
-# Getting Started with Create React App
+## 📋 Sobre o Projeto
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+O **Organo** é uma aplicação desenvolvida para reforçar os conceitos de React.js, desde a estrutura inicial até a criação de componentes reutilizáveis e a interação com o DOM. Este projeto tem como objetivo demonstrar a construção de uma aplicação funcional e escalável, utilizando as melhores práticas do desenvolvimento frontend moderno.
 
-## Available Scripts
+## 🛠️ Tecnologias Utilizadas
 
-In the project directory, you can run:
+- **React.js**: Biblioteca JavaScript para construção de interfaces.
+- **Create React App**: Ferramenta de inicialização de projetos em React.
+- **JavaScript (ES6+)**: Linguagem de programação utilizada no desenvolvimento.
+- **CSS3**: Estilização da interface.
 
-### `npm start`
+## 🏃‍♂️ Como Executar o Projeto
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Instalação
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+Para rodar o projeto localmente, siga os seguintes passos:
 
-### `npm test`
+1. Clone o repositório:
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+   ```bash
+   git clone https://github.com/juliooidella/aulaReactOrgano.git
+   cd aulaReactOrgano
+   ```
 
-### `npm run build`
+2. Instale as dependências:
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+   ```bash
+   npm install
+   ```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+3. Execute o projeto:
+   ```bash
+   npm start
+   ```
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+Abra [http://localhost:3000](http://localhost:3000) no navegador para ver a aplicação em ação.
 
-### `npm run eject`
+### Scripts Disponíveis
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+No diretório do projeto, você pode executar os seguintes comandos:
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+- **`npm start`**: Executa a aplicação em modo de desenvolvimento. A página recarrega automaticamente ao detectar mudanças no código.
+- **`npm test`**: Inicia o runner de testes no modo interativo.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+- **`npm run build`**: Cria o build otimizado da aplicação para produção na pasta `build`. Os arquivos são minificados e prontos para o deploy.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+- **`npm run eject`**: Remove a configuração padrão do `Create React App` e permite customizar as dependências e configurações de webpack, Babel, ESLint, etc. **Nota:** Esta ação é irreversível.
 
-## Learn More
+## 📚 Documentação
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+- [Documentação do Create React App](https://facebook.github.io/create-react-app/docs/getting-started)
+- [Documentação do React](https://reactjs.org/docs/getting-started.html)
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+## 🌟 Funcionalidades Futuras
 
-### Code Splitting
+- Integração com API para gerenciamento de dados dinâmicos.
+- Implementação de testes unitários e de integração.
+- Melhorias na responsividade e acessibilidade da interface.
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## ✍️ Contribuições
 
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Contribuições são bem-vindas! Se você tem alguma ideia ou melhoria, fique à vontade para abrir uma _issue_ ou enviar um _pull request_.
