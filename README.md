@@ -1,3 +1,16 @@
+# Sobre
+
+O projeto faz parte do treinamento da Alura sobre desenvolvimento de FrontEnd com React
+[Curso React Desenvolvendo com JavaScript](https://cursos.alura.com.br/course/react-desenvolvendo-javascript)
+
+## GitHub do projeto:
+
+https://github.com/juliooidella/aulaReactOrgano
+
+## Deploy do Projeto na Vercel:
+
+[Deploy na Vercel](https://aula-react-organo.vercel.app)
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
