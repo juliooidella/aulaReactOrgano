@@ -1,0 +1,12 @@
+version: '3.8' # Specifies the Docker Compose file format version
+
+services:
+  app: # Defines a service named 'app'
+    build: . # Instructs Docker Compose to build an image from the Dockerfile in the current directory
+    ports:
+      - "3000:3000" # Maps port 3000 on the host to port 3000 on the container
+    volumes:
+      - .:/app # Mounts the current directory on the host to /app in the container for live code changes
+      - /app/node_modules # Excludes node_modules from being overwritten by the host volume (important for performance and to use container-specific binaries)
+    environment:
+      - NODE_ENV=development # Sets the environment to development, useful for some frameworks that behave differently in dev vs prod

@@ -72,3 +72,25 @@ No diretório do projeto, você pode executar os seguintes comandos:
 ## ✍️ Contribuições
 
 Contribuições são bem-vindas! Se você tem alguma ideia ou melhoria, fique à vontade para abrir uma _issue_ ou enviar um _pull request_.
+
+## Running with Docker
+
+To build and run this application using Docker Compose, follow these steps:
+
+1.  **Build the Docker image and run the container:**
+    ```bash
+    docker-compose up
+    ```
+    If you want to rebuild the image, use:
+    ```bash
+    docker-compose up --build
+    ```
+
+2.  **Access the application:**
+    Open your web browser and navigate to [http://localhost:3000](http://localhost:3000).
+
+3.  **Stop the application:**
+    Press `Ctrl+C` in the terminal where Docker Compose is running. To remove the containers, run:
+    ```bash
+    docker-compose down
+    ```
